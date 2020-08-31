@@ -16,3 +16,5 @@ function continuousNumbers(arr){
     }
     return continuousCount
 }
+
+module.exports = continuousNumbers;

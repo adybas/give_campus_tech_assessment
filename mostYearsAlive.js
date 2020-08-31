@@ -19,3 +19,5 @@ function findMaxValues(yearAliveHash){
     const maxValue = Object.keys(yearAliveHash).reduce((acc, value) => Math.max(acc, yearAliveHash[value]), 0)
     return Object.keys(yearAliveHash).filter(value => yearAliveHash[value] === maxValue)
 }
+
+module.exports = mostYearsAlive;
